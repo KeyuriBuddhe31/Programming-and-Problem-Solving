@@ -1,0 +1,7 @@
+# Type Content here...
+str=input()
+result=""
+for char in str:
+	if char.isalnum() or char==" ":
+		result+=char
+print(result)
